@@ -1,0 +1,70 @@
+{
+  "guide.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "images/guide1.png",
+      "images/guide2.png",
+      "images/guide3.png",
+      "images/guide1.jpg",
+      "images/guide2.jpg"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "resources": [
+      "font/iconfont.svg",
+      "font/iconfont.ttf",
+      "font/iconfont.css",
+      "fonts/mui.ttf",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "js/castapp.js",
+      "home.html"
+    ],
+    "refer": [
+      "home.html",
+      "user.html",
+      "list_shopping.html",
+      "list_shoppingCart.html"
+    ]
+  },
+  "user.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ]
+  },
+  "list_shopping.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ]
+  },
+  "list_shoppingCart.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ]
+  },
+  "home.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/home.css",
+      "js/resize.js",
+      "font/iconfont.svg",
+      "font/iconfont.ttf",
+      "font/iconfont.css",
+      "js/jquery-3.2.1.js",
+      "js/home_banner.js",
+      "images/banner1.jpg",
+      "images/hongbao.jpg",
+      "images/jinbi.jpg",
+      "images/liushishi.jpg",
+      "images/tangyan.jpg"
+    ]
+  }
+}

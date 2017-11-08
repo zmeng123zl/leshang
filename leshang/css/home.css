@@ -1,0 +1,86 @@
+								/*头部*/
+.mui-bar{height: 4rem; padding-top: 1.1rem; background: #F14DA3; box-shadow: none;}
+.mui-bar-nav .search{font-family: icon; color: #fff; font-size: 2rem; line-height: 2rem;}
+.mui-bar-nav .info{font-family: icon; color: #fff; font-size: 2rem; line-height: 2rem;}
+.mui-bar-nav ul{margin: 0; padding: 0; display: flex; justify-content: space-around; width: 84%; height: 3.7rem; margin-top: -1rem;}
+.mui-bar-nav ul li{float: left;}
+.mui-bar-nav ul li.cur{border-bottom: 2px solid #fff;}
+.mui-bar-nav ul li a{color: #fff; font-size: 1.8rem; line-height: 4rem;}
+
+/*banner样式*/
+.mui-slider{padding-top: 3.9rem;}
+.mui-slider-indicator .mui-indicator{width: 3.5%; height: .9rem; background: #fff; border: 1px solid #F14DA3; box-shadow: none;}
+.mui-slider-indicator .mui-active.mui-indicator{background: #F14DA3; border: none;}
+
+								/*主体*/
+.mui-bar-nav ~ .mui-content{padding-top: 0;}
+/*搭配测试*/
+.match{width: 100%; height: 12.8rem; background: #fff;}
+.match ul{display: flex; justify-content: space-around; margin: 0; padding: 0; padding-top: 2.7rem;}
+.match ul li{width: 20%; height: 7.94rem;}
+.match ul li .icon{width: 80%; height: 4.5rem; margin: 0 auto; background: #fff; border-radius: 50%;}
+.match ul li:first-child .icon{background: #63CDFF;}
+.match ul li:nth-child(2) .icon{background: #FFD88D;}
+.match ul li:nth-child(3) .icon{background: #EEE444;}
+.match ul li:last-child .icon{background: #FF9ED1;}
+.match ul li .icon i{display: block; font-family: icon; color: #fff; font-size: 3.11rem; text-align: center; line-height: 4.5rem; font-style: normal;} 
+.match ul li p{margin-top: 1.4rem; font-size: 1.2rem; color: #000; text-align: center;}
+/*新人专享*/
+.newP{width: 100%; height: 7.47rem; padding-top: 1.11rem;}
+.newP .newP_con{width: 100%; height: 5.17rem; padding: 1.5rem 1rem; background: #fff;}
+.newP .newP_con .one{width: 25%; height: 2rem; color: #fff; font-size: 1.1rem; text-align: center; line-height: 2rem; background: #F34DA3; border-radius: 1.76rem;}
+.newP .newP_con .two{line-height: 2.17rem; font-size: 1rem; color: #000;}
+.newP .newP_con .two mark{background: transparent; color: #FE0000;}
+/*时尚频道*/
+.fashion{width: 100%; padding: 2rem 0; background: #fff; overflow: hidden;}
+.fashion h2{font-size: 1.7rem; color: #6A6A6A; text-align: center; font-weight: normal;}
+.fashion .fashion_con{width: 200%;}
+.fashion .fashion_con .con_box{width: 35%; margin-top: 1rem; margin-left: 1.17rem;}
+.fashion .fashion_con .con_box img{display: block; width: 50%; height: 10.5rem;}
+.fashion .fashion_con .con_box .text{padding-top: .9rem;}
+.fashion .fashion_con .con_box .text a{color: #090909; font-size: 1rem;}
+.fashion .fashion_con .con_box .text p{font-size: 1rem; line-height: 2rem;}
+.fashion .fashion_con .two img{width: 40%;}
+/*流行元素*/
+.element{width: 100%; margin-top: 1.11rem; padding: 2.3rem 0; background: #fff;}
+.element h2{font-size: 1.7rem; color: #6A6A6A; text-align: center; font-weight: normal;}
+.element ul{display: flex; justify-content: space-around; align-content: space-between; flex-wrap: wrap; height: 38rem; padding: 0; margin-top: 2rem;}
+.element ul li{width: 30%; height: 11rem;}
+.element ul li .img{width: 100%; height: 8rem; border-radius: 50%; overflow: hidden;}
+.element ul li .img img{width: 100%;}
+.element ul li p{margin-top: 20px; text-align: center; color: #585858; font-size: 1rem;}
+/*挑款师精选*/
+.select{width: 100%; margin-top: 1.11rem; padding: 2.3rem 0; background: #fff; overflow: hidden;}
+.select h2{font-size: 1.7rem; color: #6A6A6A; text-align: center; font-weight: normal;}
+.select .select_top{width: 200%; margin: 1.3rem 0 1.3rem 1rem;}
+.select .select_top a{display: inline-block; width: 10%; height: 2rem; margin-left: .3rem; text-align: center; line-height: 2rem; font-size: 1rem; border-radius: .7rem;}
+.select .select_top a:first-child{border: 1px solid #F34DA3; color: #F34DA3;}
+.select .select_top a:nth-child(2){border: 1px solid #6601FF; color: #6601FF;}
+.select .select_top a:nth-child(3){border: 1px solid #7E5A42; color: #7E5A42;}
+.select .select_top a:nth-child(4){border: 1px solid #CD3301; color: #CD3301;}
+.select .select_top a:nth-child(5){border: 1px solid #FECD32; color: #FECD32;}
+.select ul{width: 200%; margin: 0; padding: 0;}
+.select ul li{float: left; width: 20%; margin-left: .7rem;}
+.select ul li .img{width: 100%; height: 12rem; overflow: hidden;}
+.select ul li .img img{width: 100%;}
+.select ul li p{color: #585858; margin: .7rem 0; font-size: 1rem; line-height: 1.3rem;}
+.select ul li span{color: #808080; font-size: 1rem;}
+/*优选美搭*/
+.optimization{width: 100%; margin-top: 1.11rem; padding: 2.3rem 0 0; background: #fff;}
+.optimization h2{position: relative; font-size: 1.7rem; color: #6A6A6A; text-align: center; font-weight: normal;}
+.optimization h2:before{content: ''; display: block; position: absolute; top: .7rem; left: 3.3rem; width: 20%; height: 1px; background: #000;}
+.optimization h2:after{content: ''; display: block; position: absolute; top: .7rem; right: 3.3rem; width: 20%; height: 1px; background: #000;}
+.optimization ul{margin: 1.3rem 1.3rem 0 .7rem; padding: 0;}
+.optimization ul li{position: relative; float: left; width: 47%; height: 22rem; margin: 0 0 .7rem .7rem; overflow: hidden;}
+.optimization ul li .img{width: 100%; height: 15.4rem;}
+.optimization ul li .img img{width: 100%;}
+.optimization ul li p{position: absolute; bottom: 1.3rem; left: 1.6rem; margin: .7rem 0; color: #666666; font-size: 1.1rem; line-height: 1.5rem;}
+.optimization ul li .triangle{position: absolute; bottom: 3.6rem; left: 0; width: 0;height: 0;border-top: .7rem solid transparent;border-left: .9rem solid #666666;border-bottom: .7rem solid transparent;}
+.optimization ul li:first-child{height: 18.4rem;}
+.optimization ul li:first-child .img{width: 100%; height: 18.4rem;}
+.optimization ul li:nth-child(3){top: -3.5rem;}
+.optimization ul li .mask{position: absolute; bottom: 1rem; left: .6rem; width: 90%; height: 5rem; background: #fff;}
+.optimization ul li .mask span{display: block; color: #585858; font-size: 1rem; line-height: 1.4rem; text-align: center;}
+.optimization ul li .mask a{display: block; width: 50%; height: 1.5rem; margin: .3rem auto; color: #F250A6; text-align: center; line-height: 1.3rem; font-size: .9rem; border: 1px solid #F250A6; border-radius: .7rem;}
+.optimization ul li .like{position: absolute; top: 12rem; right: -1.3rem; width: 40%; height: 2rem; padding-left: .7rem; color: #fff; font-size: 1.2rem; line-height: 2rem; background: rgba(0,0,0,.5); border-radius: 1.3rem;}
+.optimization ul li .like i{font-family: icon; font-style: normal;}

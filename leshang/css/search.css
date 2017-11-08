@@ -1,0 +1,31 @@
+body{background: #fff;}
+								/*头部*/
+.mui-bar{height: 4rem; padding: 0; background: #F14DA3; box-shadow: none;}
+.mui-bar-nav.mui-bar .mui-icon{margin: .7rem .5rem; padding: 0; color: #fff; font-size: 2.6rem;}
+.mui-bar .input{position: relative; width: 70%;}
+.mui-bar .input input[type="search"]{width: 100%; height: 2rem; margin: 1rem 0 0; padding: .7rem 2.6rem; background: rgba(255,255,255,.5); border: none; border-radius: 1.3rem;}
+.mui-bar .input .searchText{position: absolute; top: 1.3rem; left: .5rem; width: 30%; height: 1.4rem; color: #fff; font-size: 1rem; line-height: 1.4rem; text-align: center; background: #F14DA4; border-radius: 1.3rem;}
+.mui-bar .input .searchText span{margin-left: .5rem; font-family: icon;}
+.mui-bar .Search{display: block; margin: 1.4rem .7rem; color: #fff; font-size: 1.3rem; line-height: 1.5rem;}
+								/*主体内容*/
+.mui-bar-nav ~ .mui-content{padding-top: 4rem; background: #fff;}
+/*搜索选项*/
+.searchTitle{padding: 0 3rem; border-bottom: 1px solid #EEEEEE; background: #fff;}
+.searchTitle a{position: relative; cursor: pointer; display: inline-block; height: 3rem; margin-right: 3.5rem; color: #000; line-height: 3rem; font-size: 1.1rem;}
+.searchTitle a.cur{color: #F250A3; border-bottom: 2px solid #F250A3;}
+.searchTitle a:last-child{margin-right: 0;}
+.searchTitle a i{position: absolute; top: .1rem; font-family: icon; font-style: normal;}
+/*搜索内容*/
+.boxCon{position: relative;}
+.boxCon ul{display: flex; justify-content: space-around; align-content: space-between; flex-wrap: wrap; margin: .5rem 0 2rem; padding: 0 1rem;}
+.boxCon ul li{width: 45%; height: 18rem; margin-bottom: 1rem; overflow: hidden;}
+.boxCon ul li img{width: 100%;}
+.boxCon ul li .p1{width: 80%; margin: .4rem 0 0; color: #303030; font-size: 1rem; line-height: 1rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.boxCon ul li .p2{margin: 0; color: #F749A8; font-size: 1.3rem; font-weight: 600; line-height: 1.7rem;}
+.boxCon .zz{z-index: 100; position: absolute; top: -7.6rem; width: 100%; height: 113%; background: rgba(46,37,38,.8);}
+.boxCon .zz .select_options{position: absolute; right: 0; width: 80%; height: 100%; padding-top: 2rem; background: #fff;}
+.boxCon .zz .select_options .one,.boxCon .zz .select_options .two{width: 100%; padding: 0 1.4rem;}
+.select_options .one .one_con,.select_options .two .two_con{width: 100%; border-bottom: 1px solid #EFEFEF;}
+.select_options .one .one_con p{width: 30%; padding: 0 .8rem; margin-bottom: 1rem; color: #000; line-height: 2rem; letter-spacing: 3px; font-size: 1rem; border: 1px solid #DCDCDC; border-radius: .5rem;}
+.select_options .one .one_con p:last-child{width: 55%;}
+.boxCon .zz .select_options .two{margin-top: 1.4rem;}
